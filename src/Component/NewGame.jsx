@@ -2,9 +2,11 @@ import { useState } from "react";
 
 function NewGame({ onclick }) {
   const [name, setName] = useState("");
+
   const inputHandler = (e) => {
     setName(e.target.value);
   };
+
   return (
     <div>
       <h2>Start a game by choosing difficulty</h2>
