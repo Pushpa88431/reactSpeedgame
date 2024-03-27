@@ -53,6 +53,7 @@ function App() {
     }
   };
   const randomNumb = () => {
+    // eslint-disable-next-line no-undef
     if (rounds.current >= 100) {
       stopHandler();
       return;

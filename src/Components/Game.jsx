@@ -1,4 +1,4 @@
-import Circle from "../UI_Components/Circle";
+import Circle from "../UI_components/Circle";
 
 function Game({ score, circles, stopHandler, clickHandler, current }) {
   return (
