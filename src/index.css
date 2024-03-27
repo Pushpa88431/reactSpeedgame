@@ -38,9 +38,10 @@ h2 {
 }
 p {
   font-family: sans-serif;
-  font-weight: 300;
-  font-size: 3.2em;
-  color: rgb(5, 90, 62);
+  font-style: oblique;
+  font-size: 50px;
+  color: rgb(169, 119, 175);
+  text-shadow: 2px 2px 10px #500546;
 }
 
 input {
@@ -50,8 +51,8 @@ input {
   display: flex;
   margin-left: 550px;
   padding: 10px 10px;
-  box-shadow: 0px 0px 10px #ff00b2, 0px 0px 10px #ff00f2 inset;
-  border: 2px solid #ff00b7;
+  box-shadow: 0px 0px 10px #056693, 0px 0px 10px #0033ff inset;
+  border: 2px solid #974a81;
   height: 50px;
   width: 150px;
 }
@@ -61,8 +62,8 @@ button {
   border-color: rgb(238, 186, 203);
   border-radius: 30px;
   width: 80px;
-  box-shadow: 0px 0px 10px #ff00f2, 0px 0px 10px #ff00f2 inset;
-  border: 2px solid #ff00b7;
+  box-shadow: 0px 0px 10px #056693, 0px 0px 10px #0033ff inset;
+  border: 2px solid #974a81;
 }
 button:hover {
   background-color: rgb(6, 72, 80);
@@ -95,8 +96,8 @@ button {
   margin-right: 20px;
   cursor: "pointer";
   justify-content: center;
-  box-shadow: 0px 0px 10px #ff00f2, 0px 0px 10px #ff00f2 inset;
-  border: 2px solid #ff00b7;
+  box-shadow: 0px 0px 10px #056693, 0px 0px 10px #0033ff inset;
+  border: 2px solid #974a81;
 }
 .circle:hover {
   transition: 0.6s ease-in-out;
