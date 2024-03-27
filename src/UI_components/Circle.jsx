@@ -24,11 +24,11 @@ function Circle({ id, current, clickHandler }) {
   }
 
   return (
-    <button
+    <div
       className={`circle ${current ? "active" : ""}`}
       id={current ? circleName : null}
       onClick={() => clickHandler(id)}
-    ></button>
+    ></div>
   );
 }
 

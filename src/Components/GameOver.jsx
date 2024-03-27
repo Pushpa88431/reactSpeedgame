@@ -5,7 +5,7 @@ function GameOver({ closeHandler, name, score, level, text }) {
         <h2>Game over here</h2>
         <div>
           <p>
-            {name} {score} snowball on level {level}.{text}
+            {name} {score} Snowball on level {level}.{text}
           </p>
         </div>
 
