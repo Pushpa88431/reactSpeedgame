@@ -6,7 +6,7 @@
 }
 body {
   font-family: Helvetica, Arial, sans-serif;
-  background-image: url(snowfall.jpg);
+  background-image: url("./images/snowfall.jpg");
   margin: 0;
   display: grid;
   place-items: center;
