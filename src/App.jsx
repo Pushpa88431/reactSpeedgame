@@ -60,11 +60,13 @@ function App() {
     let nextActive;
     do {
       nextActive = getRndInt(0, levelsAmount);
-    } while (nextActive === currentInt.current);
+    } while (nextActive === current.current);
 
     setCurrent(nextActive);
+    // eslint-disable-next-line no-undef
     rounds.current += 1;
 
+    // eslint-disable-next-line no-undef
     timeoutIdRef.current = setTimeout(randomNumb, pace);
     console.log(nextActive);
   };
